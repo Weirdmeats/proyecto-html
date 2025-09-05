@@ -10,42 +10,43 @@
 <body class="">
 
 <!--header -->
-    <header class="bg-gray-800 text-white w-full uppercase">
-        <!--linea superior del headers -->
-        <div class="justify-end py-2 px-10 w-full bg-gray-600 flex items-center">
-            <nav class="space-x-4">
-                <a href="#" class="hover:text-indigo-600 ">AYUDA</a>
-                <a href="#" class="hover:text-indigo-600">SERVICIOS</a>
-                <a href="#" class="hover:text-indigo-600">POLITICA DE ENVIOS</a>
-            </nav>
+<header class="bg-gray-900 text-white w-full uppercase shadow-md">
+    <!--linea superior del headers -->
+    <div class="flex justify-end items-center py-2 px-6 md:px-10 bg-gray-700">
+        <nav class="space-x-4 text-sm md:text-base">
+            <a href="#" class="hover:text-sky-300 transition">AYUDA</a>
+            <a href="#" class="hover:text-sky-300 transition">SERVICIOS</a>
+            <a href="#" class="hover:text-sky-300 transition">POLÍTICA DE ENVÍOS</a>
+        </nav>
+    </div>
+
+    <div class="container mx-auto flex items-center justify-between py-2 px-6 md:px-10">
+        <!--logo + título -->
+        <a href="/" class="flex items-center space-x-4 hover:text-purple-500 transition">
+            <img src="./src/assets/icons/vinyl.png" alt="logo png" class="w-20 h-20 rounded-full">
+            <h1 class="text-4xl font-bold">TAME IMPALA</h1>
+        </a>
+
+
+        <!--nav -->
+        <nav class="hidden md:flex space-x-6 text-xl">
+            <a href="#" class="hover:text-sky-400 transition">INICIO</a>
+            <a href="#" class="hover:text-sky-400 transition">TIENDA</a>
+            <a href="#" class="hover:text-sky-400 transition">NOSOTROS</a>
+            <a href="#" class="hover:text-sky-400 transition">CONTACTO</a>
+        </nav>
+        <!--boton cuenta -->
+        <div class="hidden md:block">
+            <a href="#" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition">
+                Iniciar sesión
+            </a>
         </div>
+    </div>
+    <!--anuncio -->
+    <div class="bg-cyan-900 w-full uppercase shadow-md py-4">
 
-        <div class="container items-center py-10 mx-auto flex justify-between">
-            <!--logo -->
-            <h1 class="text-4xl font-bold ">
-                <a href="/" class="hover:text-purple-600 ">
-                    TAME IMPALA
-
-                </a>
-            </h1>
-
-            <!--nav -->
-            <nav class="hidden md:flex space-x-6">
-                <a href="#" class="hover:text-indigo-600">INICIO</a>
-                <a href="#" class="hover:text-indigo-600">TIENDA</a>
-                <a href="#" class="hover:text-indigo-600">NOSOTROS</a>
-                <a href="#" class="hover:text-indigo-600">CONTACTO</a>
-            </nav>
-            <!--boton cuenta -->
-            <div class="hidden md:block">
-                <a href="#" class="bg-red-400 hover:bg-white-500 px-4 py-2 rounded-lg">
-                    Iniciar sesion
-                </a>
-            </div>
-        </div>
-    </header>
-
-
+    </div>
+</header>
 
 </body>
 </html>
