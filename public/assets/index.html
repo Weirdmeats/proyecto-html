@@ -22,7 +22,7 @@
             <!--marca-->
             <h1 class="text-4xl text-white font-bold">Danfoss</h1>
             <!--mensaje-->
-            <h3 class="text-gray-300 text-2xs relative -top-2">Bienvenidos a nuestra tienda online!</h3>
+            <h3 class="text-gray-300 text-2xs relative -top-2">Tienda de instrumentos musicales online!</h3>
         </div>
         <!--navbar-->
         <nav class="flex items-center justify-end space-x-4">
@@ -38,11 +38,13 @@
         <a href="#">
             <img src="./img/RedHouse.png" alt="" class="h-10 w-10 rounded-full">
         </a>
-        <input class="bg-gray-200 text-black rounded-sm p-2" type="text">
-        <button class="bg-gray-200 text-black px-1 py-1 hover:bg-red-400 rounded-sm">
-            Buscar
+        <form action="/buscar" method="get">
+            <input class="bg-gray-200 text-black rounded-sm p-2" type="text">
+            <button class="bg-gray-200 text-black px-1 py-1 hover:bg-red-400 rounded-sm">
+                Buscar
 
-        </button>
+            </button>
+        </form>
         <!--dropdown nav-->
         <div class="relative group">
             <button class="hover:bg-red-400 text-black">Guitarras Electricas▾</button>
@@ -54,13 +56,55 @@
 
         </div>
     </div>
-    
-
-
-
 
 
 </header>
+
+<main class="flex-grow"></main>
+<!--carrusel de imagenes-->
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<footer class="text-gray-100 bg-gray-800">
+    <div class="max-w-3xl mx-auto py-6">
+        <h1 class="text-center text-lg font-bold">
+            Danfoss copyright 2025
+        </h1>
+        <!--suscribirse email-->
+        <div class="flex justify-center mt-6">
+            <div class="bg-white rounded-md">
+                <div class="flex flex-wrap justify-between md:flex-row">
+                    <input type="email" class="m-1 p-2 appearance-none text-gray-700 text-sm focus:outline-none focus:placeholder-transparent" placeholder="Ingresa tu email">
+                    <button class="w-full m-1 p-2 text-sm bg-gray-900 hover:bg-red-400">Suscribite</button>
+                </div>
+            </div>
+        </div>
+
+        <!--titulo bajo-->
+        <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
+            <div>
+                <a href="" class="text-xl font-bold text-gray-100 hover:text-gray-400">Danfoss</a>
+            </div>
+
+            <!--nav del footer-->
+            <div>
+                <div>
+                    <a href="" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">About</a>
+                    <a href="" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Contacto</a>
+                    <a href="" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Foro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
