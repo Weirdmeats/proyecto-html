@@ -34,17 +34,27 @@
         </nav>
     </div>
         <!--header inferior-->
-    <div class="flex justify-start p-3 space-x-3 bg-white">
+    <div class="flex justify-start p-3 space-x-1 px-65 bg-white">
         <a href="#">
-            <img src="./img/RedHouse.png" alt="" class="h-10 w-10">
+            <img src="./img/RedHouse.png" alt="" class="h-10 w-10 rounded-full">
         </a>
-        <input class="bg-white text-black" type="text">
-        <button class="bg-white text-black px-4 py-1 hover:bg-red-400">
+        <input class="bg-gray-200 text-black rounded-sm p-2" type="text">
+        <button class="bg-gray-200 text-black px-1 py-1 hover:bg-red-400 rounded-sm">
             Buscar
 
         </button>
+        <!--dropdown nav-->
+        <div class="relative group">
+            <button class="hover:bg-red-400 text-black">Guitarras Electricas▾</button>
+            <div class="absolute hidden group-hover:block bg-black">
+                <ul>
+                    <li><h1 class="px-4 py-2">Estratocaster</h1></li>
+                </ul>
+            </div>
 
+        </div>
     </div>
+    
 
 
 
