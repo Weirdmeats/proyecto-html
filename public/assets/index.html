@@ -48,22 +48,48 @@
             </button>
         </form>
         <!--dropdown nav-->
-        <div class="relative group">
-            <button class="hover:bg-red-400 text-black">Guitarras Electricas▾</button>
-            <div class="absolute hidden group-hover:block bg-black">
-                <ul>
-                    <li><h1 class="px-4 py-2">Estratocaster</h1></li>
-                </ul>
-            </div>
+        <div>
+            <div class="relative group bg-black">
+                <label for="guitarras"></label>
+                <select id="guitarras" name="guiatrras">
+                    <option value="">Estratocaster</option>
+                    <option value="">Estratocaster</option>
+                    <option value="">Estratocaster</option>
+                </select>
 
+            </div>
         </div>
     </div>
 
 
 </header>
 
-<main class="flex-grow"></main>
-<!--carrusel de imagenes-->
+<main class="flex-grow">
+    <!--carrusel de imagenes-->
+    <div class="flex justify-center items-center min-h-center bg-gray-200 p-4">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-4xl">
+            <div class="space-x-4 flex">
+                <img src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" class="h-64 w-full " alt="">
+                <img src="https://dojiw2m9tvv09.cloudfront.net/29454/product/e6sb2819.jpg" class="h-64 w-full " alt="">
+                <img src="https://dojiw2m9tvv09.cloudfront.net/29454/product/l-g2-jb-22305.jpeg" class="h-64 w-full " alt="">
+
+
+            </div>
+            <div class="flex justify-center mt-4">
+                <button class="bg-gray-880 rounded-full h-4 w-4 mx-1"></button>
+                <button class="bg-gray-880 rounded-full h-4 w-4 mx-1"></button>
+                <button class="bg-gray-880 rounded-full h-4 w-4 mx-1"></button>
+            </div>
+            <div class="flex justify-between items-center mt-4 px-4">
+                <button class="bg-gray-300 rounded-full p-2">Anterior</button>
+                <button class="bg-gray-300 rounded-full p-2">Siguiente</button>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
 
 
 
@@ -74,7 +100,7 @@
 
 
 <!--footer-->
-<footer class="text-gray-100 bg-gray-800">
+<footer class="text-gray-100 bg-gray-600">
     <div class="max-w-3xl mx-auto py-6">
         <h1 class="text-center text-lg font-bold">
             Danfoss copyright 2025
@@ -84,9 +110,9 @@
             <div class="bg-white rounded-md">
                 <div class="flex flex-wrap justify-between md:flex-row">
                     <label class="text-sm text-gray-700">
-                        <input type="email" class="m-1 p-2 appearance-none text-gray-700 text-sm focus:outline-none focus:placeholder-transparent" placeholder="Ingresa tu email">
+                        <input type="email" class="m-1 p-2 appearance-none text-black text-lg focus:outline-none focus:placeholder-transparent" placeholder="Ingresa tu email">
                     </label>
-                    <button class="w-full m-1 p-2 text-sm bg-gray-900 hover:bg-red-400">Suscribite</button>
+                    <button class="w-full m-1 p-2 text-lg font-bold bg-gray-900 hover:bg-red-400" >Suscribite</button>
                 </div>
             </div>
         </div>
