@@ -28,23 +28,21 @@
         <!--navbar-->
         <nav class="flex items-center justify-end space-x-4">
             <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1 ">Inicio</a>
-            <a href="about.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Nosoros</a>
+            <a href="about.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Nosotros</a>
             <a href="tienda.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Tienda</a>
             <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Contacto</a>
-            <a href="carrito.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Mi carrito</a>
         </nav>
     </div>
     <!--header inferior-->
-    <div class="w-full items-center">
-        <div class="flex items-center justify-start space-x-2 px-55 bg-white ">
-            <a href="#"><img src="assets/img/RedHouse.png" alt="" class="h-10 w-10 rounded-full"></a>
-            <form action="/buscar" method="get">
-                <label class="text-sm text-gray-700">
-                    <input class="bg-gray-200 text-black rounded-sm p-2" type="text">
-                </label>
-                <button class="bg-gray-200 text-black px-1 py-1 hover:bg-red-400 rounded-sm">Buscar</button>
-            </form>
-
+    <div class="w-full bg-white">
+        <div class="max-w-7xl mx-auto px-20 flex items-center justify-between py-3">
+            <div class="flex items-center space-x-4">
+                <a href="#"><img src="assets/img/RedHouse.png" alt="Inicio" class="h-10 w-10 rounded-full"></a>
+                <form action="/buscar" method="get" class="flex items-center space-x-5">
+                    <input type="text" placeholder="Buscar..." class="bg-gray-200 text-black rounded-sm p-2">
+                    <button type="submit" class="bg-gray-200 text-black px-3 py-2 hover:bg-red-400 rounded-sm">Buscar</button>
+                </form>
+            </div>
             <!--dropdowns-->
             <div class="flex  bg-white w-44">
                 <!--dropdown guitarras -->
