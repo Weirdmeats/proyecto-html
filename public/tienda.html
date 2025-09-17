@@ -6,7 +6,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Tienda</title>
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="min-h-screen flex flex-col">
 
 <!--header -->
 
@@ -27,14 +27,14 @@
         </div>
         <!--navbar-->
         <nav class="flex items-center justify-end space-x-4">
-            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1 ">Inicio</a>
-            <a href="about.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Nosotros</a>
-            <a href="tienda.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Tienda</a>
-            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-1 py-1 border-t-1">Contacto</a>
+            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Inicio</a>
+            <a href="about.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Nosotros</a>
+            <a href="tienda.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Tienda</a>
+            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Contacto</a>
         </nav>
     </div>
     <!--header inferior-->
-    <div class="w-full bg-white">
+    <div class="w-full bg-gray-300">
         <div class="max-w-7xl mx-auto px-20 flex items-center justify-between py-3">
             <div class="flex items-center space-x-4">
                 <a href="#"><img src="assets/img/RedHouse.png" alt="Inicio" class="h-10 w-10 rounded-full"></a>
@@ -47,32 +47,26 @@
             <div class="flex  bg-white w-44">
                 <!--dropdown guitarras -->
                 <div class="relative group w-44 items-center">
-                    <button class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 ">Guitarras</button>
+                    <a href="tienda.html#guitarras" class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Guitarras</a>
                     <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
                         <div class="w-full">
                             <div class="font-bold text-gray-700 mb-2"><a href="">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
                                 <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Stratocaster</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Telecaster</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Jaguar</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Jazzmaster</a></li>
-                            </ul>
-                        </div>
-                        <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Yamaha</a></div>
-                            <ul class="text-sm text-gray-600 space-y-1">
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Pacifica</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Apx</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Revstar</a></li>
                             </ul>
                         </div>
                         <div class="w-full">
                             <div class="font-bold text-gray-700 mb-2"><a href="">Gibson</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
                                 <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Les Paul</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">ES-335</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Explorer</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Flying V</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="">Paul RS</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">SE Standard</a></li>
+
                             </ul>
                         </div>
 
@@ -81,23 +75,26 @@
 
                 <!--dropdown bajos -->
                 <div class="relative group w-44 items-center ">
-                    <button class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 ">Bajos</button>
+                    <a href="tienda.html#bajos"class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Bajos</a>
                     <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4">
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Fender</a></div>
+                            <div class="font-bold text-gray-700 mb-2"><a href="tienda.html#bajo_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Mustang</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Aerodyne Jazz</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">American Ultra</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Vintera Series</a></li>
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Mustang Bass</a></li>
+
                             </ul>
                         </div>
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Yamaha</a></div>
+                            <div class="font-bold text-gray-700 mb-2"><a href="tienda.html#bajo_cort">Cort</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">TRBX</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Attitude</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">BB234</a></li>
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">A5plus</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="">Warwick</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Thumb</a></li>
                             </ul>
                         </div>
                     </div>
@@ -106,17 +103,29 @@
 
                 <!--dropdown amplificadores -->
                 <div class="relative group w-44 items-center">
-                    <button class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 ">Amplificadores</button>
-                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4">
-                        <div class="w-44">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Fender</a></div>
+                    <a href="tienda.html#amplificadores"class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Amplificadores</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="tienda.html#amplificadores_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Stratocaster</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Telecaster</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Jaguar</a></li>
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Jazzmaster</a></li>
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Twin reverb</a></li>
                             </ul>
                         </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="tienda.html#amplificadores_marshall">Marshall</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">JCM800</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="tienda.html#amplificadores_vox">Vox</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">AC30</a></li>
+
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
 
@@ -127,276 +136,184 @@
 </header>
 
 
-<main class="container mx-auto p-4 flex-grow-1">
-    <div class="flex justify-center flex-wrap gap-4">
-        <!--seccion de guitarras-->
-        <section id="guitarras" class="mb-12">
-            <h2 class="text-2xl font-bold mb-4 text-center">Guitarras Electricas</h2>
-            <h3 class="text-2xl font-bold mb-4 text-center">Fender</h3>
-            <!--subcategoria fender-->
-            <div id="guitarras_fender" class="mb-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Stratocaster</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
+<!--tienda con lista de productos-->
+<main class="bg-gray-100 flex-grow">
+    <!--section tienda-->
+    <section class="bg-gray-100">
 
-
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Telecaster</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Jazzmaster</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-
-                </div>
-                <h3 class="text-2xl font-bold mb-4 text-center">Gibson</h3>
-                <!--subcategoria gibson-->
-                <div id="guitarras_gibson" class="mb-8">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                        <div class="bg-gray-300 p-4 shadow rounded">
-                            <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                            <h3 class="font-semibold text-lg">Gibson Les Paul</h3>
-                            <p class="text-gray-700">$Precio</p>
-                            <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
+        <!--section guitarras-->
+        <div class="flex items-center gap-2 mt-10 justify-center">
+            <h1 id="guitarras" class="text-5xl text-Black ">Guitarras</h1>
+        </div>
+        <section  class="mt-10 bg-gray-100 flex items-center justify-center gap-6">
+            <!--subcategoria guitarra fender-->
+            <div id="guitarra_fender" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Fender Stratocaster</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
                         </div>
-
-
-
-                        <div class="bg-gray-300 p-4 shadow rounded">
-                            <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                            <h3 class="font-semibold text-lg">Gibson SG</h3>
-                            <p class="text-gray-700">$Precio</p>
-                            <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                        </div>
-
-
-
-                        <div class="bg-gray-300 p-4 shadow rounded">
-                            <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                            <h3 class="font-semibold text-lg">Gibson Explorer</h3>
-                            <p class="text-gray-700">$Precio</p>
-                            <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                        </div>
-
-                    </div>
-                </div>
-                <h3 class="text-2xl font-bold mb-4 text-center">Ibanez</h3>
-                <!--subcategoria ibanez-->
-                <div id="guitarras_ibanez" class="mb-8">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                        <div class="bg-gray-300 p-4 shadow rounded">
-                            <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                            <h3 class="font-semibold text-lg">Ibanez RG</h3>
-                            <p class="text-gray-700">$Precio</p>
-                            <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                        </div>
-
-
-
-                        <div class="bg-gray-300 p-4 shadow rounded">
-                            <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                            <h3 class="font-semibold text-lg">Ibanez S</h3>
-                            <p class="text-gray-700">$Precio</p>
-                            <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                        </div>
-
-
-                        <div class="bg-gray-300 p-4 shadow rounded">
-                            <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                            <h3 class="font-semibold text-lg">Ibanez Series</h3>
-                            <p class="text-gray-700">$Precio</p>
-                            <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                        </div>
-
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
                 </div>
             </div>
-        </section>
+            <!--subcategoria guitarra gibson-->
+            <div id="guitarra_gibson" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Gibson Les Paul</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!--subcategoria guitarra paul rs-->
+            <div id="guitarra_paul_rs" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Paul RS SE Standard</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
 
-        <!--seccion de bajos electricos-->
-        <section id="bajos_electricos" class="mb-12">
-            <h2 class="text-2xl font-bold mb-4 text-center">Bajos Electricos</h2>
-            <h3 class="text-2xl font-bold mb-4 text-center">Fender</h3>
+
+        </section>
+        <!--section bajos-->
+        <div class="flex items-center gap-2 mt-10 justify-center">
+            <h1 id="bajos" class="text-5xl text-Black ">Bajos</h1>
+        </div>
+
+        <section class="mt-10 bg-gray-100 flex items-center justify-center gap-6">
             <!--subcategoria bajos fender-->
-            <div id="bajos_electricos_fender" class="mb-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Precision Bass</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Jazz Bass</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Mustang Bass</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
+            <div id="bajo_fender" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Gibson Les Paul</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-center">Gibson</h3>
-            <!--subcategoria bajos Gibson-->
-            <div id="bajos_electricos_gibson" class="mb-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Gibson Thunderbird</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Gibson EB-3</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Gibson SG Bass</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
+            <!--subcategoria bajo cort-->
+            <div id="bajo_music_cort" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Cort A5plus</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-center">Yamaha</h3>
-            <!--subcategoria bajos yamaha-->
-            <div id="bajos_electricos_yamaha" class="mb-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Yamaha</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Yamaha</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Yamaha</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
+            <!--subcategoria bajo warwick-->
+            <div id="bajo_thumb" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Warwick Thumb</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
                 </div>
             </div>
 
         </section>
-        <!--seccion de amplificadores-->
-        <section id="amplificadores" class="mb-12">
-            <h2 class="text-2xl font-bold mb-4 text-center">Amplificadores</h2>
-            <h3 class="text-2xl font-bold mb-4 text-center">Marshallr</h3>
-            <!--subcategoria amplificadores marshall-->
-            <div id="amplificadores_marshall" class="mb-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Marshall DSL40</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Marshall MG30</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Marshall JVM210</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            <h3 class="text-2xl font-bold mb-4 text-center">Fender</h3>
+        <!--section amplificadores-->
+        <div class="flex items-center gap-2 mt-10 justify-center">
+            <h1 id="amplificadores" class="text-5xl text-Black ">Amplificadores</h1>
+        </div>
+
+        <section class="mt-10 bg-gray-100 flex items-center justify-center gap-6">
             <!--subcategoria amplificadores fender-->
-            <div id="amplificadores_fender" class="mb-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Twin Reverb</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Bassman</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Fender Mustang GT40</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
+            <div id="amplificadores_fender" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Fender Twin Reverb</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-center">Orange</h3>
-            <!--subcategoria amplificadores orange-->
-            <div id="aplificadores_orange" class="mb-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Orange Crush 20</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
+            <!--subcategoria amplificadores marshall-->
+            <div id="amplificadores_marshall" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Marshal JCM800</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Orange Rocker 15</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
-                    </div>
-
-
-                    <div class="bg-gray-300 p-4 shadow rounded">
-                        <img src="" class="w-full h-48 object-cover rounded mb-2" alt="">
-                        <h3 class="font-semibold text-lg">Orange Tiny Terror</h3>
-                        <p class="text-gray-700">$Precio</p>
-                        <a href="" class="bg-red-400 text-white px-2 py-1 rounded hover:bg-red-500 mt-2 inline-block">Ver detalles</a>
+                </div>
+            </div>
+            <!--subcategoria amplificadores vox-->
+            <div id="amplificadores_vox" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <div class="p-5 flex flex-col gap-3">
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Vox AC30</h2>
+                    <!--precio-->
+                    <div class="space-y-5">
+                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <div class="flex items-center gap-2 mt-1">
+                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
+                        </div>
+                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
                 </div>
             </div>
 
         </section>
-</div>
+
+
+
+    </section>
 </main>
-<!-- -->
-
-
-
-
 
 <!--footer-->
 <footer class="text-gray-100 bg-gray-600">
