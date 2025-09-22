@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-html",
+  "version": "1.0.0",
+  "description": "proyecto-html 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./input/input.css -o ./public/assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weirdmeats/proyecto-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weirdmeats/proyecto-html/issues"
+  },
+  "homepage": "https://github.com/Weirdmeats/proyecto-html#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}

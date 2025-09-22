@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>About</title>
+</head>
+<body class="min-h-screen flex flex-col">
+
+<!--header -->
+
+<header class="flex flex-col bg-[rgba(59,67,72,255)] text-white">
+
+    <!--header principal-->
+    <div class="w-full max-w-6xl mx-auto flex justify-between items-center p-6">
+        <!--logo+marca-->
+        <div class="flex items-center space-x-4">
+            <!--logo-->
+            <a href="index.html">
+                <img src="assets/images/general/logo.png" alt="logo" class="h-20 w-20">
+            </a>
+            <!--marca-->
+            <a href="index.html" class="text-3xl text-white font-bold hover:bg-red-400 rounded-sm px-2 py-2">DenMark©</a>
+            <!--mensaje-->
+            <h3 class="text-gray-300 text-2xs relative -top-2">Tienda de instrumentos musicales online!</h3>
+        </div>
+        <!--navbar-->
+        <nav class="flex items-center justify-end space-x-4">
+            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Inicio</a>
+            <a href="about.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Nosotros</a>
+            <a href="blog.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Tienda</a>
+            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Contacto</a>
+        </nav>
+    </div>
+    <!--header inferior-->
+    <div class="w-full bg-gray-300">
+        <div class="max-w-7xl mx-auto px-20 flex items-center justify-between py-3">
+            <div class="flex items-center space-x-4">
+                <a href="#"><img src="assets/images/general/RedHouse.png" alt="Inicio" class="h-10 w-10 rounded-full"></a>
+                <form action="/buscar" method="get" class="flex items-center space-x-5">
+                    <label> <input type="text" placeholder="Buscar..." class="bg-gray-200 text-black rounded-sm p-2"></label>
+                    <button type="submit" class="bg-gray-200 text-black px-3 py-2 hover:bg-red-400 rounded-sm">Buscar</button>
+                </form>
+            </div>
+            <!--dropdowns-->
+            <div class="flex  bg-white w-44">
+                <!--dropdown guitarras -->
+                <div class="relative group w-44 items-center">
+                    <a href="blog.html#guitarras" class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Guitarras</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="">Fender</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Stratocaster</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="">Gibson</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Les Paul</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="">Paul RS</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">SE Standard</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--dropdown bajos -->
+                <div class="relative group w-44 items-center ">
+                    <a href="blog.html#bajos" class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Bajos</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4">
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="blog.html#bajo_fender">Fender</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Mustang Bass</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="blog.html#bajo_cort">Cort</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">A5plus</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="">Warwick</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Thumb</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--dropdown amplificadores -->
+                <div class="relative group w-44 items-center">
+                    <a href="blog.html#amplificadores" class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Amplificadores</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="blog.html#amplificadores_fender">Fender</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Twin reverb</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="blog.html#amplificadores_marshall">Marshall</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">JCM800</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="w-full">
+                            <div class="font-bold text-gray-700 mb-2"><a href="blog.html#amplificadores_vox">Vox</a></div>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">AC30</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main class="flex-grow">
+
+</main>
+
+<!--footer-->
+<footer class="text-gray-100 bg-gray-600">
+    <div class="max-w-3xl mx-auto py-6">
+        <h1 class="text-center text-lg font-bold">
+            Danfoss copyright 2025
+        </h1>
+        <!--suscribirse email-->
+        <div class="flex justify-center mt-6">
+            <div class="bg-white rounded-md">
+                <div class="flex flex-wrap justify-between md:flex-row">
+                    <label class="text-sm text-gray-700">
+                        <input type="email" class="m-1 p-2 appearance-none text-black text-lg focus:outline-none focus:placeholder-transparent" placeholder="Ingresa tu email">
+                    </label>
+                    <button class="w-full m-1 p-2 text-lg font-bold bg-gray-900 hover:bg-red-400" >Suscribite</button>
+                </div>
+            </div>
+        </div>
+
+        <!--titulo bajo-->
+        <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
+            <div>
+                <a href="" class="text-xl font-bold text-gray-100 hover:text-gray-400">Danfoss</a>
+            </div>
+
+            <!--nav del footer-->
+            <div>
+                <div>
+                    <a href="" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">About</a>
+                    <a href="" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Contacto</a>
+                    <a href="" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Foro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
