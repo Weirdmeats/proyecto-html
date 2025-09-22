@@ -9,8 +9,7 @@
 <body class="min-h-screen flex flex-col">
 
 <!--header -->
-
-<header class="flex flex-col bg-[rgba(59,67,72,255)] text-white">
+<header class="flex flex-col bg-[#394855] text-white">
 
     <!--header principal-->
     <div class="w-full max-w-6xl mx-auto flex justify-between items-center p-6">
@@ -21,33 +20,20 @@
                 <img src="assets/images/general/logo.png" alt="logo" class="h-20 w-20">
             </a>
             <!--marca-->
-            <a href="index.html" class="text-3xl text-white font-bold hover:bg-red-400 rounded-sm px-2 py-2">DenMark©</a>
+            <a href="index.html" class="text-3xl text-white font-bold hover:bg-red-400 rounded-sm px-2 py-2">T&G Music©</a>
             <!--mensaje-->
             <h3 class="text-gray-300 text-2xs relative -top-2">Tienda de instrumentos musicales online!</h3>
         </div>
         <!--navbar-->
         <nav class="flex items-center justify-end space-x-4">
-            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Inicio</a>
-            <a href="about.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Nosotros</a>
-            <a href="blog.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Tienda</a>
-            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Contacto</a>
-        </nav>
-    </div>
-    <!--header inferior-->
+            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Inicio</a
     <div class="w-full bg-gray-300">
-        <div class="max-w-7xl mx-auto px-20 flex items-center justify-between py-3">
-            <div class="flex items-center space-x-4">
-                <a href="#"><img src="assets/images/general/RedHouse.png" alt="Inicio" class="h-10 w-10 rounded-full"></a>
-                <form action="/buscar" method="get" class="flex items-center space-x-5">
-                    <label> <input type="text" placeholder="Buscar..." class="bg-gray-200 text-black rounded-sm p-2"></label>
-                    <button type="submit" class="bg-gray-200 text-black px-3 py-2 hover:bg-red-400 rounded-sm">Buscar</button>
-                </form>
-            </div>
+        <div class="max-w-7xl mx-auto px-20 flex items-center justify-center py-3">
             <!--dropdowns-->
-            <div class="flex  bg-white w-44">
+            <div class="flex  bg-gray-300 w-auto">
                 <!--dropdown guitarras -->
-                <div class="relative group w-44 items-center">
-                    <a href="blog.html#guitarras" class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Guitarras</a>
+                <div class="relative group w-auto items-center ">
+                    <a href="blog.html#guitarras" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Guitarras</a>
                     <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
                         <div class="w-full">
                             <div class="font-bold text-gray-700 mb-2"><a href="">Fender</a></div>
@@ -74,8 +60,8 @@
                 </div>
 
                 <!--dropdown bajos -->
-                <div class="relative group w-44 items-center ">
-                    <a href="blog.html#bajos" class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Bajos</a>
+                <div class="relative group w-auto items-center ">
+                    <a href="blog.html#bajos" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Bajos</a>
                     <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4">
                         <div class="w-full">
                             <div class="font-bold text-gray-700 mb-2"><a href="blog.html#bajo_fender">Fender</a></div>
@@ -87,7 +73,7 @@
                         <div class="w-full">
                             <div class="font-bold text-gray-700 mb-2"><a href="blog.html#bajo_cort">Cort</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">A5p</a></li>
+                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">A5plus</a></li>
 
                             </ul>
                         </div>
@@ -102,11 +88,11 @@
 
 
                 <!--dropdown amplificadores -->
-                <div class="relative group w-44 items-center">
-                    <a href="blog.html#amplificadores" class="max-w-full bg-white text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Amplificadores</a>
+                <div class="relative group w-auto items-center">
+                    <a href="blog.html#amplificadores" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Amplificadores</a>
                     <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="blog.html#amplificadores_fender">Fender</a></div>
+                            <div class="font-bold  text-gray-700 mb-2"><a href="blog.html#amplificadores_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
                                 <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Twin reverb</a></li>
                             </ul>
@@ -133,7 +119,11 @@
             </div>
         </div>
     </div>
+
 </header>
+
+
+
 
 
 <!--tienda con lista de productos-->
@@ -147,15 +137,12 @@
         </div>
         <section  class="mt-10 bg-gray-100 flex items-center justify-center gap-40">
             <!--subcategoria guitarra fender-->
-            <div id="guitarra_fender" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
+            <div id="guitarra_fender" class="bg-white text-gry-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
                 <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Fender Stratocaster</h2>
                     <!--precio-->
-                    <div class="space-y-5">
-                        <span class="text-base line-through opacity-50">$899 CLP</span>
-                        <div class="flex items-center gap-2 mt-1">
-                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="text-xl font-bold">$879.990 CLP</span>
                             <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
                         </div>
                         <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
@@ -164,14 +151,14 @@
             </div>
             <!--subcategoria guitarra gibson-->
             <div id="guitarra_gibson" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/186826/1-guitarra-electrica-gibson-les-paul-custom-ebony-gloss-1109687.jpg?v=638357381113930000" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Gibson Les Paul</h2>
                     <!--precio-->
                     <div class="space-y-5">
-                        <span class="text-base line-through opacity-50">$899 CLP</span>
+                        <span class="text-base line-through opacity-50">$2.499.990 CLP</span>
                         <div class="flex items-center gap-2 mt-1">
-                            <span class="text-xl font-bold">$699 CLP</span>
+                            <span class="text-xl font-bold">$1.999.990 CLP</span>
                             <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
                         </div>
                         <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
@@ -180,7 +167,7 @@
             </div>
             <!--subcategoria guitarra paul rs-->
             <div id="guitarra_paul_rs" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/180304/1110741.jpg?v=638043127608870000" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Paul RS SE Standard</h2>
                     <!--precio-->
@@ -205,7 +192,7 @@
         <section class="mt-10 bg-gray-100 flex items-center justify-center gap-40">
             <!--subcategoria bajos fender-->
             <div id="bajo_fender" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://r2.gear4music.com/media/103/1036872/600/preview.jpg" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Gibson Les Paul</h2>
                     <!--precio-->
@@ -221,7 +208,7 @@
             </div>
             <!--subcategoria bajo cort-->
             <div id="bajo_cort" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://es.euroguitar.com/images/products/cort/a5-plus-scms-optg-artisan-bartolini-pan-med-149062.jpg" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Cort A5p</h2>
                     <!--precio-->
@@ -237,7 +224,7 @@
             </div>
             <!--subcategoria bajo warwick-->
             <div id="bajo_thumb" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://http2.mlstatic.com/D_NQ_NP_686834-MLC31899172311_082019-O-bajo-electrico-warwick-de-5-cuerdas-thumb-bo-incluye-funda.webp" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Warwick Thumb</h2>
                     <!--precio-->
@@ -261,7 +248,7 @@
         <section class="mt-10 bg-gray-100 flex items-center justify-center gap-40">
             <!--subcategoria amplificadores fender-->
             <div id="amplificadores_fender" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_32/323667/18902722_800.jpg" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Fender Twin Reverb</h2>
                     <!--precio-->
@@ -271,15 +258,15 @@
                             <span class="text-xl font-bold">$699 CLP</span>
                             <span class="px-1.5 py-0.5 rounded-md text-sm text-white bg-yellow-400">22.25%! Descuento!</span>
                         </div>
-                        <a href="" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
+                        <a href="./blog/amplificador-fender-twin.html" class="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md transition-colors duration-300">Ver detalles</a>
                     </div>
                 </div>
             </div>
             <!--subcategoria amplificadores marshall-->
             <div id="amplificadores_marshall" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://bimotordj.com/image/cache/catalog/STUDIOCLASSICSC20H/1-1200x1200.jpg" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
-                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Marshal JCM800</h2>
+                    <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Marshall JCM800</h2>
                     <!--precio-->
                     <div class="space-y-5">
                         <span class="text-base line-through opacity-50">$899 CLP</span>
@@ -293,7 +280,7 @@
             </div>
             <!--subcategoria amplificadores vox-->
             <div id="amplificadores_vox" class="bg-white text-gray-700 min-h-40 w-72 shadow-lg rounded-md overflow-hidden">
-                <img class="w-full h-full object-cover" src="https://audiomusicacl.vtexassets.com/arquivos/ids/191413/1-guitarra-electrica-fender-american-vintage-ii-1957-stratocaster-2-color-sunburst-1113234.jpg?v=638525238674170000" alt="guitarra fender">
+                <img class="w-full h-full object-cover" src="https://http2.mlstatic.com/D_NQ_NP_829190-MLU70185876343_062023-O.webp" alt="guitarra fender">
                 <div class="p-5 flex flex-col gap-3">
                     <h2 class="text-black font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">Vox AC30</h2>
                     <!--precio-->
