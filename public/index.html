@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet">
-    <title>Contacto</title>
+    <title>Indice</title>
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -37,7 +37,7 @@
     <div class="w-full bg-slate-400">
         <div class="max-w-7xl mx-auto px-20 flex items-center justify-center py-3">
             <!--dropdowns-->
-            <div class="flex  bg-slate-400 w-auto">
+            <div class="flex  bg-slate-400 w-auto space-x-2 ">
                 <!--dropdown guitarras -->
                 <div class="relative group w-auto items-center ">
                     <a href="blog.html#guitarras" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Guitarras</a>
@@ -129,37 +129,37 @@
 </header>
 
 
-<main class="flex-grow">
+<main class="flex-grow bg-gradient-to-br from-gray-500 via-white to-red-300 mb-10 ">
     <!--seccion de imagenes-->
-    <section class="w-[80%] mx-auto rounded-lg max-w-screen-lg text-semibold text-black mt-15 overflow-hidden" id="slider">
+    <div class="w-full text-center mt-15">
+        <h1 class="text-6xl font-semibold text-gray-700">Explora nuestros productos</h1>
+    </div>
+    <section class="w-full mx-auto rounded-4xl max-w-screen-lg text-semibold text-black mt-15 overflow-hidden" id="slider">
+
 
         <!--img 1-->
        <div class="flex w-[300%] transition-transform duration-3000 animate-[slide_9s_linear_infinite]">
          <figure class=" aspect-video relative w-full h-full ">
-            <img src="https://guitarristas.edxstatic.com/3303/guitars.jpeg" alt="" class="h-full w-full">
+            <a href="blog.html#guitarras"><img src="https://i.ytimg.com/vi/sTd8VyujBbc/maxresdefault.jpg" alt="" class="h-full w-full object-cover"></a>
             <div class="absolute space-y-5 py-6 inset-0.5 mx-auto h-max mt-auto w-[90%]">
-                <h2 class="text-4xl text-center">Primera imagen</h2>
-                <p class="text-center">Texto</p>
+                
 
             </div>
         </figure>
         <!--img 2-->
          <figure class=" aspect-video relative w-full h-full ">
-            <img src="https://www.txirula.com/img/cms/Blog/fender/fender_original-lineup.png" alt="" class="h-full w-full">
+            <a href="blog.html#bajos"><img src="https://www.txirula.com/img/cms/Blog/fender/fender_original-lineup.png" alt="" class="h-full w-full object-cover"></a>
             <div class="absolute space-y-5 py-6 inset-0.5 mx-auto h-max mt-auto w-[90%]">
-                <h2 class="text-4xl text-center">Primera imagen</h2>
-                <p class="text-center">Texto</p>
+
 
             </div>
         </figure>
 
         <!--img 3-->
          <figure class=" aspect-video relative w-full h-full ">
-            <img src="https://www.cutawayguitarmagazine.com/wp-content/uploads/2018/01/Fender_AmericanOriginal_GroupShot-2.jpg" alt="" class="h-full w-full">
+            <a href="blog.html#amplificadores"><img src="https://www.txirula.com/modules/dbblog/views/img/post/Photo-credit-Sweetwater.jpg" alt="" class="h-full w-full object-cover"></a>
             <div class="absolute space-y-5 py-6 inset-0.5 mx-auto h-max mt-auto w-[90%]">
-                <h2 class="text-4xl text-center">Primera imagen</h2>
-                <p class="text-center">Texto</p>
-
+                
             </div>
         </figure>
        </div>
@@ -219,7 +219,7 @@
     </div>
 </footer>
 
-<!--extraido de tailwind-->
+<!--keyframe extraido de tailwind-->
 <style>
 @keyframes slide {
   0%, 20% { transform: translateX(0%); }
@@ -228,7 +228,7 @@
   100% { transform: translateX(0%); }
 }
 </style>
-<!--extraido de tailwind-->
+<!--keyframe extraido de tailwind-->
 
 </body>
 </html>
