@@ -1,62 +1,62 @@
 <!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../assets/css/style.css" rel="stylesheet">
-    <title>Indice</title>
+ <head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/css/style.css" rel="stylesheet">
+<title>Indice</title>
 </head>
+
 <body class="min-h-screen flex flex-col">
 
+
 <!--header -->
-
 <header class="flex flex-col bg-[#394855] text-white">
-
     <!--header principal-->
-    <div class="w-full max-w-6xl mx-auto flex justify-between items-center p-6">
+    <div class="w-full max-w-screen-xl px-4 mx-auto flex flex-col md:flex-row justify-between items-center py-6">
         <!--logo+marca-->
-        <div class="flex items-center space-x-4">
+        <div class="flex items-center gap-3 flex-wrap">
             <!--logo-->
             <a href="index.html">
-                <img src="assets/images/general/logo.png" alt="logo" class="h-20 w-20">
+                <img src="assets/images/general/logo.png" alt="logo" class="h-[70px] w-[70px] sm:h-20 sm:w-20 lg:h-[90]">
             </a>
             <!--marca-->
-            <a href="index.html" class="text-3xl text-white font-bold hover:bg-red-400 rounded-sm px-2 py-2">T&G Music©</a>
+            <a href="index.html" class="text-xl sm:text-2xl lg:text-lg text-white font-bold hover:bg-red-400 rounded-sm px-2 py-1">T&G Music©</a>
             <!--mensaje-->
-            <h3 class="text-gray-300 text-2xs relative -top-2">Tienda de instrumentos musicales online!</h3>
+            <h3 class="text-gray-300 text-xs sm:text-sm mt-1 mb-2 relative -top-1">Tienda de instrumentos musicales online!</h3>
         </div>
         <!--navbar-->
-        <nav class="flex items-center justify-end space-x-4">
-            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Inicio</a>
-            <a href="nosotros.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Nosotros</a>
-            <a href="blog.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Blog</a>
-            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Contacto</a>
+        <nav class="flex flex-wrap justify-center md:justify-end gap-2 mt-4 md:mt-0 mb-1 items-center space-x-4">
+            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded px-2 py-1 text-sm">Inicio</a>
+            <a href="nosotros.html" class="text-gray-300 hover:bg-red-400 rounded px-2 py-1 text-sm">Nosotros</a>
+            <a href="blog.html" class="text-gray-300 hover:bg-red-400 rounded- px-2 py-1 text-sm">Blog</a>
+            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded- px-2 py-1 text-sm">Contacto</a>
         </nav>
     </div>
     <!--header inferior-->
     <div class="w-full bg-slate-400">
-        <div class="max-w-7xl mx-auto px-20 flex items-center justify-center py-3">
+        <div class="max-w-screen-lg mx-auto px-6 sm:px-10 md:px-20 flex flex-wrap items-center justify-center py-3 gap-3">
             <!--dropdowns-->
             <div class="flex  bg-slate-400 w-auto space-x-2 ">
                 <!--dropdown guitarras -->
-                <div class="relative group w-auto items-center ">
-                    <a href="blog.html#guitarras" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Guitarras</a>
-                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
+                <div class="relative group">
+                    <a href="blog.html#guitarras" class="bg-red-200 rounded-xl text-black px-4 py-2 text-sm font-semibold hover:bg-red-400 block">Guitarras</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex flex-wrap bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4 gap-4">
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Fender</a></div>
+                            <div class="font-bold text-gray-700 mb-2 text-base"><a href="blog.html#guitarra_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
                                 <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Stratocaster</a></li>
                             </ul>
                         </div>
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Gibson</a></div>
+                            <div class="font-bold text-gray-700 mb-2 text-base"><a href="blog.html#guitarra_gibson">Gibson</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Les Paul</a></li>
+                                <li><a href="blog.html#guitarra_gibson_lespaul" class="block px-2 py-1 hover:bg-gray-100 rounded">Les Paul</a></li>
 
                             </ul>
                         </div>
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Paul RS</a></div>
+                            <div class="font-bold text-gray-700 mb-2 text-base"><a href="blog.html#guitarra_paul">Paul RS</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
                                 <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">SE Standard</a></li>
 
@@ -68,8 +68,8 @@
 
                 <!--dropdown bajos -->
                 <div class="relative group w-auto items-center ">
-                    <a href="blog.html#bajos" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Bajos</a>
-                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4">
+                    <a href="blog.html#bajos" class="bg-red-200 rounded-xl text-black px-4 py-2 text-sm font-semibold hover:bg-red-400 block">Bajos</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex flex-wrap bg-white shadow-lg z-10 w-max sm:min-w-[250px] overflow-auto p-4 gap-4">
                         <div class="w-full">
                             <div class="font-bold text-gray-700 mb-2"><a href="blog.html#bajo_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
@@ -96,8 +96,8 @@
 
                 <!--dropdown amplificadores -->
                 <div class="relative group w-auto items-center">
-                    <a href="blog.html#amplificadores" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Amplificadores</a>
-                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
+                    <a href="blog.html#amplificadores" class="bg-red-200 rounded-xl text-black px-4 py-2 text-sm font-semibold hover:bg-red-400 block">Amplificadores</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex flex-wrap bg-white shadow-lg z-10 w-max max-w-full overflow-auto p-4 gap-4">
                         <div class="w-full">
                             <div class="font-bold  text-gray-700 mb-2"><a href="blog.html#amplificadores_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
@@ -129,56 +129,57 @@
 </header>
 
 
-<main class="flex-grow bg-gradient-to-br from-gray-500 via-white to-red-300 mb-10 ">
-    <section id="guitarra_gibson_lespaul" class="mx-auto items-start grid grid-cols-2 gap-6 ">
-        <!--imagen del producto-->
-        <div class="flex p-2 justify-center rounded-2xl">
-            <img src="https://audiomusicacl.vtexassets.com/arquivos/ids/188762/1-guitarra-electrica-gibson-les-paul-standard-50s-figured-top-60s-cherry-1112551.jpg?v=638440391249730000" alt="img guitarra " class="w-full h-80">
+<main class="flex-grow bg-gradient-to-br from-gray-500 via-white to-red-300 pb-20">
+    <section id="guitarra_gibson_lespaul" class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-10">
+            
+        <div class="flex justify-center items-center">
+        <div class="w-full max-w-md h-[300px] sm:h-[360px] md:h-[400px] overflow-hidden rounded-xl shadow-md">
+                <img src="https://audiomusicacl.vtexassets.com/arquivos/ids/186826/1-guitarra-electrica-gibson-les-paul-custom-ebony-gloss-1109687.jpg?v=638357381113930000" alt="Gibson Les Paul" class="w-full h-full object-cover">
+          </div>
         </div>
-        <!--informacion del producto-->
-        <div class="mt-4">
-            <h1 class="text-gray-900 text-2xl font-semibold">Guitarra electrica Gibson Les Paul</h1>
-            <p class="text-lg text-gray-700">Fabricada a mano con madera de palafitos</p>
 
-            <div class="">$999.999 CLP</div>
+         <div class="flex flex-col justify-center gap-6">
+             <h1 class="text-2xl sm:text-3xl font-semibold text-gray-900">Guitarra eléctrica Gibson Les Paul</h1>
+            <p class="text-base sm:text-lg text-gray-700">Fabricada a mano con madera de palafitos</p>
+            <div class="text-xl font-bold text-gray-800">$1.200.000 CLP</div>
 
-            <div class="mt-4">
-                <label for="cantidad" class="font-semibold text-gray-700 block"></label>
-                <input type="number" class="px-3 py-2 rounded-full">
+            <div>
+                <input type="number" placeholder="Cantidad" class="w-full max-w-xs px-4 py-2 rounded-full border border-gray-300 text-gray-800">
             </div>
-            <button class="bg-red-600 text-gray-200 font-bold mt-5 px-7 py-3 rounded-2xl">Agregar al carrito</button>
-        </div>
-    </section>
-   
 
-    
+            <button class="bg-red-400 hover:bg-red-500 text-white font-semibold px-6 py-3 rounded-xl w-full max-w-xs">Agregar al carrito</button>
+            </div>
 
+        </section>
 </main>
-<br>
+
+
 
 <!--footer-->
 <footer class="bg-gray-700 py-6">
-    <div class="w-full bg-gray-700 flex justify-center py-20 ">
-        <div class="text-center max-w-md w-full px-5">
-           <div class="space-y-1">
-            <h3 class="text-white text-xl  font-semibold mb-5">Mantente al dia con nuestras ofertas!</h3>
-            <input type="email" placeholder="Ingresa tu correo" class="w-full bg-white px-5 py-2 rounded-lg">
+    <div class="w-full bg-gray-700 flex flex-col items-center justify-center py-16 px-4 sm:px-6 md:px-10">
+        <div class="text-center w-full max-w-md px-5">
+           <div class="space-y-2">
+            <h3 class="text-white text-xl sm:text-xl mb-4  font-semibold">Mantente al dia con nuestras ofertas!</h3>
+            <input type="email" placeholder="Ingresa tu correo" class="w-full mt-2 bg-white px-5 py-2 rounded-lg">
             <br>
             <button onclick="subscribirse" type="submit" class="bg-white text-gray-800 font-semibold px-4 py-2 rounded-lg">Subscribirse</button>
 
            </div>
         </div>
     </div>
-    <div class="container mx-auto grid grid-cols-4">    
-        <div class="text-white">
-            <a href="./assets/images/general/logo.png" class="h-12"></a>
-            <h2 class="text-3xl font-bold my-4"><a href="index.html">T&G Music</a></h2>
-            <h3>Tus instrumentos al mejor precio</h3>
+    <!--links-->
+    <div class="w-full px-4 sm:px-6 md:px-10 lg:px-20">    
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+         <div class="text-white">
+            
+            <h2 class="text-2xl font-bold my-3"><a href="index.html">T&G Music</a></h2>
+            <h3 class="text-sm">Tus instrumentos al mejor precio</h3>
         </div>
 
          <div class="text-white">
-            <h2 class="text-3xl font-bold my-4">Navegacion</h2>
-            <ul class="text-gray-100">
+            <h2 class="text-xl font-bold my-4">Navegacion</h2>
+            <ul class="text-gray-100 space-y-1">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -186,22 +187,25 @@
                 
             </ul>
         </div>
+        <!--categorias-->
          <div class="text-white">
-            <h2 class="text-3xl font-bold my-4">Categorias</h2>
-            <ul class="text-gray-100">
+            <h2 class="text-xl font-bold my-4">Categorias</h2>
+            <ul class="text-gray-100 space-y-1">
                 <li><a href="blog.html#guitarras">Guitarras</a></li>
                 <li><a href="blog.html#bajoss">Bajos</a></li>
                 <li><a href="blog.html#amplificadores">Amplificadores</a></li>
             </ul>
         </div>
+         <!--redes sociales-->
          <div class="text-white">
-            <h2 class="text-3xl font-bold my-4">Redes sociales</h2>
-            <ul class="text-gray-100">
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Whatsapp +56973945235</a></li>
+            <h2 class="text-xl font-bold my-3">Redes sociales</h2>
+            <ul class="text-gray-100 space-y-1">
+                <li><a href="https://www.facebook.com/fender.es/?locale=es_LA">Facebook</a></li>
+                <li><a href="https://www.instagram.com/fender_chile/?hl=es">Instagram</a></li>
+                <li><a href="https://web.whatsapp.com/">Whatsapp +56973945235</a></li>
             </ul>
         </div>
+       </div>
     </div>
 </footer>
 
