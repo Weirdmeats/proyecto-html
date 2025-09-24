@@ -4,59 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet">
-    <title>About</title>
+    <title>Nosotros</title>
 </head>
 <body class="min-h-screen flex flex-col">
 
 <!--header -->
 
 <header class="flex flex-col bg-[#394855] text-white">
-
     <!--header principal-->
-    <div class="w-full max-w-6xl mx-auto flex justify-between items-center p-6">
+    <div class="w-full max-w-screen-xl px-4 mx-auto flex flex-col md:flex-row justify-between items-center py-6">
         <!--logo+marca-->
-        <div class="flex items-center space-x-4">
+        <div class="flex items-center gap-3 flex-wrap">
             <!--logo-->
             <a href="index.html">
-                <img src="assets/images/general/logo.png" alt="logo" class="h-20 w-20">
+                <img src="assets/images/general/logo.png" alt="logo" class="h-[70px] w-[70px] sm:h-20 sm:w-20 lg:h-[90]">
             </a>
             <!--marca-->
-            <a href="index.html" class="text-3xl text-white font-bold hover:bg-red-400 rounded-sm px-2 py-2">T&G Music©</a>
+            <a href="index.html" class="text-xl sm:text-2xl lg:text-lg text-white font-bold hover:bg-red-400 rounded-sm px-2 py-1">T&G Music©</a>
             <!--mensaje-->
-            <h3 class="text-gray-300 text-2xs relative -top-2">Tienda de instrumentos musicales online!</h3>
+            <h3 class="text-gray-300 text-xs sm:text-sm mt-1 mb-2 relative -top-1">Tienda de instrumentos musicales online!</h3>
         </div>
         <!--navbar-->
-        <nav class="flex items-center justify-end space-x-4">
-            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Inicio</a>
-            <a href="nosotros.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Nosotros</a>
-            <a href="blog.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Blog</a>
-            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded-sm px-2 py-1">Contacto</a>
+        <nav class="flex flex-wrap justify-center md:justify-end gap-2 mt-4 md:mt-0 mb-1 items-center space-x-4">
+            <a href="index.html" class="text-gray-300 hover:bg-red-400 rounded px-2 py-1 text-sm">Inicio</a>
+            <a href="nosotros.html" class="text-gray-300 hover:bg-red-400 rounded px-2 py-1 text-sm">Nosotros</a>
+            <a href="blog.html" class="text-gray-300 hover:bg-red-400 rounded- px-2 py-1 text-sm">Blog</a>
+            <a href="contacto.html" class="text-gray-300 hover:bg-red-400 rounded- px-2 py-1 text-sm">Contacto</a>
         </nav>
     </div>
     <!--header inferior-->
     <div class="w-full bg-slate-400">
-        <div class="max-w-7xl mx-auto px-20 flex items-center justify-center py-3">
+        <div class="max-w-screen-lg mx-auto px-6 sm:px-10 md:px-20 flex flex-wrap items-center justify-center py-3 gap-3">
             <!--dropdowns-->
             <div class="flex  bg-slate-400 w-auto space-x-2 ">
                 <!--dropdown guitarras -->
-                <div class="relative group w-auto items-center ">
-                    <a href="blog.html#guitarras" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Guitarras</a>
-                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
+                <div class="relative group">
+                    <a href="blog.html#guitarras" class="bg-red-200 rounded-xl text-black px-4 py-2 text-sm font-semibold hover:bg-red-400 block">Guitarras</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex flex-wrap bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4 gap-4">
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Fender</a></div>
+                            <div class="font-bold text-gray-700 mb-2 text-base"><a href="blog.html#guitarra_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
                                 <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Stratocaster</a></li>
                             </ul>
                         </div>
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Gibson</a></div>
+                            <div class="font-bold text-gray-700 mb-2 text-base"><a href="blog.html#guitarra_gibson">Gibson</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
-                                <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">Les Paul</a></li>
+                                <li><a href="blog.html#guitarra_gibson_lespaul" class="block px-2 py-1 hover:bg-gray-100 rounded">Les Paul</a></li>
 
                             </ul>
                         </div>
                         <div class="w-full">
-                            <div class="font-bold text-gray-700 mb-2"><a href="">Paul RS</a></div>
+                            <div class="font-bold text-gray-700 mb-2 text-base"><a href="blog.html#guitarra_paul">Paul RS</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
                                 <li><a href="" class="block px-2 py-1 hover:bg-gray-100 rounded">SE Standard</a></li>
 
@@ -68,8 +67,8 @@
 
                 <!--dropdown bajos -->
                 <div class="relative group w-auto items-center ">
-                    <a href="blog.html#bajos" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Bajos</a>
-                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4">
+                    <a href="blog.html#bajos" class="bg-red-200 rounded-xl text-black px-4 py-2 text-sm font-semibold hover:bg-red-400 block">Bajos</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex flex-wrap bg-white shadow-lg z-10 w-max sm:min-w-[250px] overflow-auto p-4 gap-4">
                         <div class="w-full">
                             <div class="font-bold text-gray-700 mb-2"><a href="blog.html#bajo_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
@@ -96,8 +95,8 @@
 
                 <!--dropdown amplificadores -->
                 <div class="relative group w-auto items-center">
-                    <a href="blog.html#amplificadores" class="max-w-full bg-red-200 rounded-2xl text-black px-4 py-3 text-left font-semibold hover:bg-red-400 block">Amplificadores</a>
-                    <div class="absolute top-full left-0 hidden group-hover:flex bg-white shadow-lg z-10 max-w-screen overflow-auto p-4 space-x-4">
+                    <a href="blog.html#amplificadores" class="bg-red-200 rounded-xl text-black px-4 py-2 text-sm font-semibold hover:bg-red-400 block">Amplificadores</a>
+                    <div class="absolute top-full left-0 hidden group-hover:flex flex-wrap bg-white shadow-lg z-10 w-max max-w-full overflow-auto p-4 gap-4">
                         <div class="w-full">
                             <div class="font-bold  text-gray-700 mb-2"><a href="blog.html#amplificadores_fender">Fender</a></div>
                             <ul class="text-sm text-gray-600 space-y-1">
@@ -131,28 +130,30 @@
 
 
 
-
+<!--main nosotros-->
 <main class="flex-grow bg-gradient-to-br from-gray-500 via-white to-red-300">
-    <div class="w-full text-center mt-15">
-        <h1 class="text-6xl font-semibold text-gray-700">Quienes somos nosotros?</h1>
+    <div class="w-full text-center mt-[60px] mb-10">
+        <!--se cambio mt- de 16 a [60px] porque no funcionaba-->
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold text-gray-900">¿Quiénes somos nosotros?</h1>
+        <h1 class="text-xl sm:text-5xl md:text-2xl font-semibold text-gray-500">Instrumentos que inspiran</h1>
     </div>
-    <section class="w-full py-16 px-5 text-gray-900">
+    <section class="w-full py-14 px-6 text-gray-700">
         
-        <div class="max-w-4xl mx-auto grid grid-cols-2 gap-6">
-        <div class="space-y-7">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-10">
             <div class="text-center">
-            <h2 class="text-3xl font-extrabold">Quienes somos?</h2>
-            <p class="font-semibold text-xl text-gray-900 mt-3">Somos una tienda en crecimiento</p>
+            <h2 class="text-2xl sm:text-3xl font-extrabold">¿Quiénes somos nosotros?</h2>
+            <p class="text-base sm:text-lg text-gray-700 mt-3">Somos una tienda de instrumentos musicales en crecimiento</p>
             </div>
             <div class="text-center">
-            <h2 class="text-3xl font-extrabold">De donde venimos?</h2>
-            <p class="font-semibold text    -xl text-gray-900 mt-3">Venimos de una tiendita</p>
+            <h2 class="text-3xl sm:text-3xl font-extrabold">¿De dónde venimos?</h2>
+            <p class="text-base sm:text-lg text-gray-700 mt-3">Comenzamos en una tienda diminuta ubicada en Piloto Pardo 123, Castro</p>
             </div>
         </div>
         <div class="space-y-7 text-gray-700">
             <div class="text-center">
-            <h1 class="text-3xl font-extrabold">Tienda de instrumentos</h1>
-            <p class="font-semibold text-xl text-gray-900 mt-3">Asi es, estamos en crecimiento, lamentablemente no poseemos un catalogo extendido de instrumentos musicales pero solamente es el inicio de este tan largo viaje de emprendimiento</p>
+            <h1 class="text-3xl sm:text-3xl font-extrabold">Tienda de instrumentos</h1>
+            <p class="text-base sm:text-lg text-gray-700 mt-3">Asi es, estamos en crecimiento, lamentablemente no poseemos un catalogo extendido de instrumentos musicales, pero, solamente es el inicio de este tan largo viaje de emprendimientos</p>
         </div>
         
         </div>
@@ -160,12 +161,12 @@
         <!--derecha-->
         <div class="space-y-7">
             <div class="text-center">
-            <h2 class="text-3xl font-extrabold">A donde vamos?</h2>
-            <p class="font-semibold text-xl text-gray-900 mt-3">A seguir creciendo</p>
+            <h2 class="text-2xl sm:text-3xl font-extrabold">¿Hacia dónde vamos?</h2>
+            <p class="text-base sm:text-lg text-gray-700 mt-3">A seguir creciendo, en un futuro algo lejano pensamos en abrir nuevamente una tienda fisica</p>
             </div>
             <div class="text-center">
-            <h2 class="text-3xl font-extrabold">Estamos solos?</h2>
-            <p class="font-semibold text-xl text-gray-900 mt-3">No, acompañados de proveedores</p>
+            <h2 class="text-2xl sm:text-3xl font-extrabold">Estamos solos?</h2>
+            <p class="text-base sm:text-lg text-gray-700 mt-3">No, estamos acompañados de proveedores de instrumentos musicales </p>
             </div>
        
 
@@ -178,14 +179,61 @@
 
 
 
-<!--footer-->
-<footer class="bg-gray-700 text-white">
-    <div class="md:justify-between md:items-center md:flex py-7 bg-gray-600 sm:px-12 px-4">
-        
 
+<!--footer-->
+<footer class="bg-gray-700 py-6">
+    <div class="w-full bg-gray-700 flex flex-col items-center justify-center py-16 px-4 sm:px-6 md:px-10">
+        <div class="text-center w-full max-w-md px-5">
+           <div class="space-y-2">
+            <h3 class="text-white text-xl sm:text-xl mb-4  font-semibold">Mantente al dia con nuestras ofertas!</h3>
+            <input type="email" placeholder="Ingresa tu correo" class="w-full mt-2 bg-white px-5 py-2 rounded-lg">
+            <br>
+            <button onclick="subscribirse" type="submit" class="bg-white text-gray-800 font-semibold px-4 py-2 rounded-lg">Subscribirse</button>
+
+           </div>
+        </div>
     </div>
-   
+    <!--links-->
+    <div class="w-full px-4 sm:px-6 md:px-10 lg:px-20">    
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+         <div class="text-white">
+            
+            <h2 class="text-2xl font-bold my-3"><a href="index.html">T&G Music</a></h2>
+            <h3 class="text-sm">Tus instrumentos al mejor precio</h3>
+        </div>
+
+         <div class="text-white">
+            <h2 class="text-xl font-bold my-4">Navegacion</h2>
+            <ul class="text-gray-100 space-y-1">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                
+            </ul>
+        </div>
+        <!--categorias-->
+         <div class="text-white">
+            <h2 class="text-xl font-bold my-4">Categorias</h2>
+            <ul class="text-gray-100 space-y-1">
+                <li><a href="blog.html#guitarras">Guitarras</a></li>
+                <li><a href="blog.html#bajoss">Bajos</a></li>
+                <li><a href="blog.html#amplificadores">Amplificadores</a></li>
+            </ul>
+        </div>
+         <!--redes sociales-->
+         <div class="text-white">
+            <h2 class="text-xl font-bold my-3">Redes sociales</h2>
+            <ul class="text-gray-100 space-y-1">
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Whatsapp +56973945235</a></li>
+            </ul>
+        </div>
+       </div>
+    </div>
 </footer>
+
 
 
 </body>
